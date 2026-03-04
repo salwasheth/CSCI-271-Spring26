@@ -1,1 +1,48 @@
 
+/*
+Name: Salwa Sheth
+Course: CSCI 271
+Lesson: Lesson 4 – Iteration & Loop Patterns
+Program: While loop - Class Average 
+Description: This program reads 10 grades, adds them, then calculates and prints the average.
+*/
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+ // variables   
+int total = 0;
+int counter = 1;
+
+// ask user to enter grades 
+cout << "Enter 10 grades:" << endl;
+
+// while loop runs until the counter is equal to 10
+while (counter <= 10) {
+    int grade;
+    cin >> grade;
+    total += grade;
+    counter++;
+}
+// calcualtes average but convert to decimal first
+double average =
+static_cast<double>(total)/10;
+cout << "Average: " << average;
+    return 0;
+}
+
+/*
+Reflection:
+1. What I understood from this program:
+From this program, I understood how while loops work espcially how the counter controls when the loop stops. In this case after the user inputs 10 grades it will calculate the average. 
+2. Difficulties I faced:
+When you dont add "counter++" to your code then you will have an infinite loop.
+3. What I needed to search or review:
+I need to look at more examples of while loops as well as review static_cast.
+4. AI Usage (if any):
+I did not use an Ai for this code but I did add my own cin and cout statements to help guide user for entering grades and reading the average.I also verified the output by using a calculator.
+5. What I learned:
+From this code I learned how to write a while loop and understand how they work. I learned the importance of adding "counter++" and it will run until the condition is true
+*/
