@@ -1,0 +1,38 @@
+/*
+Name: Salwa Sheth
+Course: CSCI 271
+Lesson: Lesson 4 – Iteration & Loop Patterns
+Program: Summing Even Numbers  
+Description: This program calculates the sum of all the even numbers up to 20 and prints the result.
+*/
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    // initialize variable 
+ int sum = 0;
+ // for loop starts at 2 and increaes by 2 each time for only even numbers 
+ for (int i = 2; i <= 20; i += 2){
+     sum += i; //adds to sum 
+ }
+ cout << "Sum is " << sum;
+ 
+ 
+   return 0;
+}
+
+/*
+Reflection:
+1. What I understood from this program:
+This program uses a for loop with the variable int sum as accumulator. You don't have to increment by 1 instead use  i += 2. You can jump by any value to filter data as you go.
+2. Difficulties I faced:
+At first I was unsure of what to write in the for loop so I had to look back at the slides. 
+3. What I needed to search or review:
+I needed to look back at the slides to see how " i += 2 " works differently than " ++i "
+4. AI Usage (if any):
+I did not use AI. I verified the output by making sure it printed the number 110 since adding all even numbers up to 20 equals 110. 
+5. What I learned:
+From this code I learned how to " i += 2 " in my for loop for only even numbers. 
+*/
