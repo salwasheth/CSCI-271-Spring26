@@ -29,7 +29,7 @@ Writing "++i" instead of  " --i " and it is important to make sure your comparis
 3. What I needed to search or review:
 I need look at more patterns with loops such as reverse. 
 4. AI Usage (if any):
-I did not use AI. I verified the output checking if it printed all the numbers 10-1 in reverse order. 
+I did not use AI. I verified the output by checking if it printed all the numbers 10-1 in reverse order. 
 5. What I learned:
 From this code I learned how to use for loop for backwards counting by writing " --i".
 */
