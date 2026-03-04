@@ -36,7 +36,7 @@ cout << "Average: " << average;
 /*
 Reflection:
 1. What I understood from this program:
-From this program, I understood how while loops work espcially how the counter controls when the loop stops. In this case after the user inputs 10 grades it will calculate the average. 
+From this program, I understood how while loops work especially how the counter controls when the loop stops. In this case after the user inputs 10 grades it will calculate the average. 
 2. Difficulties I faced:
 When you dont add "counter++" to your code then you will have an infinite loop.
 3. What I needed to search or review:
