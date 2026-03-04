@@ -1,0 +1,41 @@
+/*
+Name: Salwa Sheth
+Course: CSCI 271
+Lesson: Lesson 4 – Iteration & Loop Patterns
+Program: Counter Vs. Accumulator 
+Description: This program uses two loops. The first one counts from 0-9 and the second loop adds the numbers from 1-5. 
+*/
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+   int count = 0; 
+   
+    for (int i = 0; i < 10; i++) 
+       count++;
+   cout << "Count: " << count << endl;
+   
+   int sum = 0; 
+    
+    for (int i = 1; i<= 5; i++ )
+        sum += i;
+   cout << "Sum: " << sum;
+   
+   return 0;
+}
+
+/*
+Reflection:
+1. What I understood from this program:
+From this program I understood the difference betweeen adding one and adding many. 
+2. Difficulties I faced:
+Since there were no cout statements I added my own so that there are outputs once the program runs.
+3. What I needed to search or review:
+I needed to look back at the slides to really understand the difference between the two loops.
+4. AI Usage (if any):
+I did not use AI. I verified the output by writing my own cout statements after each loop. 
+5. What I learned:
+From this code I learned for counter you have to use " count++ " and for accumulator you have to use "sum += value". 
+*/
