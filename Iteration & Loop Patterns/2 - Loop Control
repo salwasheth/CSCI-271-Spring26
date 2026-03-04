@@ -1,0 +1,39 @@
+/*
+Name: Salwa Sheth
+Course: CSCI 271
+Lesson: Lesson 4 – Iteration & Loop Patterns
+Program: Loop Control
+Description: This program uses a while loop, prints the numbers 1-5 in one line and in order. 
+*/
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+ // variables   
+int x=1;
+
+// while loop runs until x is equal to 5
+while (x <= 5) {
+    cout << x << " ";
+    
+// essential update statement 
+    x++;
+}    
+    return 0;
+}
+
+/*
+Reflection:
+1. What I understood from this program:
+In this program x starts at 1, the loop checks if it less than or equal to 5, x increases each time until it reaches 5. 
+2. Difficulties I faced:
+When you dont add "x++" to your code then the condition will always be true resulting in an infinite loop. 
+3. What I needed to search or review:
+I need to review more examples of while loops and practice more codes. 
+4. AI Usage (if any):
+I did not use an Ai for this code I verified the output by making sure it ends at 5.
+5. What I learned:
+From this code I learned how to write a while loop and understand how they work. I learned the importance of adding "x++" and it will run until the condition is false.
+*/
