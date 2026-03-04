@@ -27,7 +27,7 @@ In this program the for loop repeats 10 times. The index starts at 1 and continu
 2. Difficulties I faced:
 Accidently starting at 0 and ending at 9. If you start at 1 it ends at 10 
 3. What I needed to search or review:
-I need review more sentinel controlled loops and memorize the "zero check"
+I need review off-by-one errors.
 4. AI Usage (if any):
 I used AI to understand the concept of off-by-one-error which is when the loop is off by one iteration.
 5. What I learned:
