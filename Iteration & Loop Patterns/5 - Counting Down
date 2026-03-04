@@ -1,0 +1,35 @@
+/*
+Name: Salwa Sheth
+Course: CSCI 271
+Lesson: Lesson 4 – Iteration & Loop Patterns
+Program: Counting Down 
+Description: This program prints the numbers 10-1 from greatest to least on the same line with spaces in between.
+*/
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+ 
+ for ( int i = 10; i>=1; --i)
+ {
+     cout << i << " ";
+ }
+ 
+    return 0;
+}
+
+/*
+Reflection:
+1. What I understood from this program:
+This program prints the numbers 10-1 (backwards). The index starts at 10 and continues as long as it is greater than or equal to to 1. After each loop the index decreases by one.
+2. Difficulties I faced:
+Writing "++i" instead of  " --i " and it is important to make sure your comparison (>=) is correct according to the loop.
+3. What I needed to search or review:
+I need look at more patterns with loops such as reverse. 
+4. AI Usage (if any):
+I did not use AI. I verified the output checking if it printed all the numbers 10-1 in reverse order. 
+5. What I learned:
+From this code I learned how to use for loop for backwards counting by writing " --i".
+*/
