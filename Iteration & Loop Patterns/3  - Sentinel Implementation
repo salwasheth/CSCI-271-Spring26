@@ -43,7 +43,7 @@ In this program a sentinel value is used to control when the program stops.
 2. Difficulties I faced:
 If you divde by zero the program will crash so the code checks first to make sure there is at least one grade.
 3. What I needed to search or review:
-I need review more sentinel controlled loops and memorize the "zero check"
+I need to review more sentinel controlled loops and memorize the "zero check"
 4. AI Usage (if any):
 I did not use an Ai for this code I verified the output by making sure it gives me the correct average or tells me if I didnt input any grades.
 5. What I learned:
