@@ -44,5 +44,5 @@ I need to look at more examples of while loops as well as review static_cast.
 4. AI Usage (if any):
 I did not use an Ai for this code but I did add my own cin and cout statements to help guide user for entering grades and reading the average.I also verified the output by using a calculator.
 5. What I learned:
-From this code I learned how to write a while loop and understand how they work. I learned the importance of adding "counter++" and it will run until the condition is true
+From this code I learned how to write a while loop and understand how they work. I learned the importance of adding "counter++" and it will run as long as the condition is true
 */
