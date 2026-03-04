@@ -1,0 +1,51 @@
+/*
+Name: Salwa Sheth
+Course: CSCI 271
+Lesson: Lesson 4 – Iteration & Loop Patterns
+Program: Sentinel Implementation
+Description: This program asks the user to input grades and -1 once they are finished. It calculates and prints the average. If the user has not entered a grade it also prints that.
+*/
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+ // variables   
+int total = 0, counter = 0, grade;
+
+// Ask user for first input
+cout << "Enter grade or -1 to quit: ";
+cin >> grade;
+
+while( grade != -1){
+    total += grade;
+    counter++;
+//Asks user for next input     
+    cout << "Enter next grade or -1 to quit: ";
+    cin >> grade;
+}
+//The zero check
+if (counter != 0){
+    double average = static_cast<double>(total)/counter;
+    cout << "Class average is: " << average;
+}else {
+    cout << "No grades were entered. ";
+}
+
+    return 0;
+}
+
+/*
+Reflection:
+1. What I understood from this program:
+In this program a sentinel value is used to control when the program stops. 
+2. Difficulties I faced:
+If you divde by zero the program will crash so the code checks first to make sure there is at least one grade.
+3. What I needed to search or review:
+I need review more sentinel controlled loops and memorize the "zero check"
+4. AI Usage (if any):
+I did not use an Ai for this code I verified the output by making sure it gives me the correct average or tells me if I didnt input any grades.
+5. What I learned:
+From this code I learned how to write both while loop and if else statement in the same program
+*/
