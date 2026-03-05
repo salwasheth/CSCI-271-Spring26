@@ -1,0 +1,39 @@
+/*
+Name: Salwa Sheth
+Course: CSCI 271
+Lesson: Lesson 4 – Iteration & Loop Patterns
+Program: Logic Interrupters 
+Description: This program contains a for loop that counts from 1-10. If number is 3 then it will skip it and if the number is 6 then it will stop the loop. 
+*/
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+   for (int i = 1; i <= 10; i++){
+       if (i==3){
+           continue;
+       }
+       if (i==6) {
+           break;
+       }
+       cout << i << " ";
+   }
+   
+   return 0;
+}
+
+/*
+Reflection:
+1. What I understood from this program:
+From this program I understood that the program will only print 1 2 4 and 5 because the three is skipped and after six it will stop. 
+2. Difficulties I faced:
+I had diffuculty understanding what the continue statement really does during the program. 
+3. What I needed to search or review:
+I had to review the slides to understand that the continue statement skips rest of the current iteration and jumps straight to next condition check. 
+4. AI Usage (if any):
+I did not use any AI. To verify my output I made sure it printed only the numbers 1,2,4,5. 
+5. What I learned:
+From this code I learned that the continue statement skips and the break statement stops the loop. 
+*/
