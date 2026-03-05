@@ -1,0 +1,38 @@
+/*
+Name: Salwa Sheth
+Course: CSCI 271
+Lesson: Lesson 4 – Iteration & Loop Patterns
+Program:  Input Validation Pattern 
+Description: This program asks the user to enter their age. If the age is less than 1 or greater than 120 then it will ask them to enter a realistic age. 
+*/
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+   int age;
+   cout << "Enter Age (1-120): ";
+   cin >> age;
+   
+   while (age < 1 || age > 120){
+       cout << "Invalid. Please enter a realistic age: ";
+       cin >> age;
+   }
+   
+   return 0;
+}
+
+/*
+Reflection:
+1. What I understood from this program:
+From this program I understood that this while loop works to check if the user input is valid. 
+2. Difficulties I faced:
+I had no difficulties while writing this program.
+3. What I needed to search or review:
+I had to review the "gatekeeper loop" from the slides which helps programmers trust user input. 
+4. AI Usage (if any):
+I did not use any AI. To verify my output I  made sure it printed "Please enter a realistic age" when the user enters a number outside the range of (1-120).
+5. What I learned:
+From this code I learned the "gatekeeper loop" which I can use in my future codes to make sure user inputs are valid. 
+*/
